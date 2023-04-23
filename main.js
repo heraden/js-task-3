@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task3</title>
-</head>
-<body>
-    <div id="main" style="display: flex; flex-direction: column; width: 400px;"> 
-<label>Enter your Product name</label> 
-<input type="text" id="product"> 
-<label>enter your Prize</label> 
-<input type="text" id="prize"> 
-<label>enter Quantity</label> 
-<input type="text" id="quantity"> 
-<label>enter Participates in the promotion or not</label> 
-<input type="text" id="promotion"> 
- 
-</div> 
-<button id="bottom" style="margin-top: 30px;">Sign in</button> 
-    <script src="./task3.js"></script>
-    
-</body>
-</html>
+function product() {
+    const productName = ("Enter product name");
+    const unitePrice = ("Enter unite price");
+     const quantity = ("Enter quantity");
+     const participates =("Participates in the promotion or not ");
+   const discount = unitePrice * 0.1
+     if (quantity >= 5) {
+       return (discount);
+     }
+     const discount2 = unitePrice * 0.15;   
+ const bothDiscount = unitePrice * 0.25
+     if (participates == "yes") {
+        return (discount2);
+
+     } else if (participates == "no") {/       return console.log(unitePrice)
+     }else{
+        return (bothDiscount)
+    }
+ }
+ product();
