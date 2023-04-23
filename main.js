@@ -12,7 +12,7 @@ function product() {
      if (participates == "yes") {
         return (discount2);
 
-     } else if (participates == "no") {/       return console.log(unitePrice)
+     } else if (participates == "no") {/ return console.log(unitePrice)
      }else{
         return (bothDiscount)
     }
